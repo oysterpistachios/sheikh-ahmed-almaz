@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color:white;
+    color: #1977f2;
+}
+
+.videos {
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #1977f2;
+}
+
+hr {
+    border-color: #1977f2;
+}

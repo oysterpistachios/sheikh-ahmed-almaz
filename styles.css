@@ -1,11 +1,28 @@
+@font-face {
+    font-family: MustophaRegular;
+    src: url(mustopha-font/MustophaRegular-0W759.otf);
+}
+
 body {
-    font-family: sans-serif;
-    background-color:white;
-    color: #1977f2;
+    font-family: serif;
+    background-color: #ffe8d6;
+    color: #6b705c;
 }
 
 .videos {
     display: block;
+}
+
+h1 {
+    font-family: MustophaRegular, serif;
+}
+
+h2 {
+    font-family: sans-serif, serif;
+}
+
+header {
+    background-color: #c1c3be;
 }
 
 li {
@@ -13,9 +30,16 @@ li {
 }
 
 a {
-    color: #1977f2;
+    color: #a5a58d;
+    font-family: sans-serif, serif;
 }
 
 hr {
-    border-color: #1977f2;
+    border-color: #aea805;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: right;
 }
